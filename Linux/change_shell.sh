@@ -1,0 +1,1 @@
+sudo usermod --shell /bin/zsh user
