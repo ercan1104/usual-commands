@@ -1,2 +1,2 @@
-# This will mount UFS filesystem with read-write permissions
+#!/bin/sh
 sudo mount -t ufs -o ufstype=ufs2

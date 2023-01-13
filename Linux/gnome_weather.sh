@@ -1,2 +1,2 @@
-# This will change the weather indicator from Farenheit to Celsius
+#!/bin/sh
 gsettings set org.gnome.GWeather4 temperature-unit centigrade

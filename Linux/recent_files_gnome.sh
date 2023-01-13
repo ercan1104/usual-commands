@@ -1,2 +1,2 @@
-# Disable recent folder in GNOME Files
+#!/bin/sh
 gsettings set org.gnome.desktop.privacy remember-recent-files false

@@ -1,2 +1,2 @@
-# Change default shell
+#!/bin/sh
 sudo usermod --shell /bin/zsh user
