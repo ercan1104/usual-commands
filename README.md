@@ -14,6 +14,8 @@
 
 `libgmp.so.3` \- removing error related with `/var/lib/libgmp.so.3`
 
+`minimal_linux_build` \- creating minimal floppy linux image (format img)
+
 `qemu` \- script to start QEMU with ability to ssh in
 
 `recent_files_gnome` \- set numbers of recent files in GNOME to 0
