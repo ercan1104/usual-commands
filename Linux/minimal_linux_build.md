@@ -16,9 +16,9 @@ make ARCH=x86 bzImage
 Download https://landley.net/aboriginal/downloads/binaries/system-image-i486.tar.gz, then unpack rootfs.cpio.gz
 ```bash
 sudo dd if=/dev/zero of=linux-boot.img bs=1k count=1440
-mkdosfs linux-boot.img
-syslinux --install linux-boot.img
-mount -o loop linux-boot.img /mnt
+sudo mkdosfs linux-boot.img
+sudo syslinux --install linux-boot.img
+sudo mount -o loop linux-boot.img /mnt
 sudo cp arch/x86/boot/bzImage /mnt
 sudo cp rootfs.cpio.gz /mnt
 ```
@@ -31,5 +31,5 @@ LABEL linux
 ```
 ## End
 ```bash
-sudo unmount /mnt
+sudo umount /mnt
 ```
