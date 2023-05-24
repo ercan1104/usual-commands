@@ -29,6 +29,8 @@
 
 `syslog_clear` \- clear `/var/log/syslog` if it takes up most of disk spaces.
 
+`system_sounds` \- import system sounds from another distro
+
 `thunar_terminal` \- set Terminal application to be opened via context menu, if you have encoutered `Error: could not find fallback TerminalEmulator`
 
 `vmmon_vmnet` \- installing vmmon and vmnet modules. Not works in recent kernel versions
